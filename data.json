@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "servers": [
+            {
+                "address": "oregon.com",
+                "port": 443,
+                "service_type": "HTTPS",
+                "interval": 10
+            },
+            {
+                "address": "facebook.com",
+                "port": 443,
+                "service_type": "TCP",
+                "interval": 15
+            },
+            {
+                "address": "google.com",
+                "port": 443,
+                "service_type": "TCP",
+                "interval": 5
+            },
+            {
+                "service_type": "HTTPS",
+                "address": "google.com",
+                "interval": 3
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "servers": [
+            {
+                "address": "baidu.com",
+                "port": 443,
+                "service_type": "TCP",
+                "interval": 5
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "servers": [
+            {
+                "service_type": "HTTP",
+                "address": "google.com",
+                "interval": 10
+            },
+            {
+                "service_type": "HTTPS",
+                "address": "bing.com",
+                "interval": 10
+            }
+        ]
+    }
+]
